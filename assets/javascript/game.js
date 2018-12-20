@@ -39,7 +39,8 @@ var startGame = function () {
 
     }
 
-    $("#previous").html("Your total score is: " + previous);
+    $("#previous").html("Your total score is: ");
+    $("#previousnum").html(previous);
 }
 
 
@@ -53,8 +54,11 @@ $(document).on("click", ".container", function () {
     var num = parseInt($(this).attr('data-random'));
 
     previous += num;
+    
+    $("#previous").html("Your total score is: ");
+    
+    $("#previousnum").html(previous);
 
-    $("#previous").html("Your total score is: " + previous);
 
     console.log(previous);
 
