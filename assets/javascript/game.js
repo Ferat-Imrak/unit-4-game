@@ -3,7 +3,7 @@ var win = 0;
 var lost = 0;
 var previous = 0;
 
-// $(".container").attr("class");
+
 
 var startGame = function () {
 
@@ -18,7 +18,7 @@ var startGame = function () {
     for (var i = 0; i < 4; i++) {
 
         var random = Math.floor(Math.random() * 11) + 1;
-        // console.log(random);
+       
 
         var container = $("<div>");
 
@@ -60,7 +60,6 @@ $(document).on("click", ".container", function () {
     $("#previousnum").html(previous);
 
 
-    console.log(previous);
 
     if (previous > randomResult) {
 
