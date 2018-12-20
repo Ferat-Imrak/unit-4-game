@@ -65,6 +65,8 @@ $(document).on("click", ".container", function () {
 
         lost++;
 
+        $("#wl").html("You lost!")
+
         $("#lost").html("Losses: " + lost)
 
         previous = 0;
@@ -75,6 +77,8 @@ $(document).on("click", ".container", function () {
     else if (previous === randomResult) {
 
         win++;
+
+        $("#wl").html("You won!!")
 
         $("#win").html("Wins: " + win);
 
