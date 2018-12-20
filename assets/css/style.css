@@ -1,3 +1,49 @@
+body {
+    background-image: url(../images/regal.png)
 
+}
+
+
+h1 {
+    background-color: orange;
+    padding: 20px;
+    margin-right: 75%;
+    color: aliceblue;
+}
+
+.parag {
+    color: green;
+    background-color: antiquewhite;
+    margin-right: 60%;
+    font-size: 20px;
+}
+
+#result {
+    padding: 40px;
+    margin-right: 80%;
+    background-color: green;
+
+}
+
+#previous {
+    background-color: green;
+    padding: 10px;
+    margin-right: 80%;
+    color: aliceblue;
+}
+
+.container1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+
+.container {
+    margin-left: 20px;;
+    height: 100px;
+    width: 100px;
+}
 
 
