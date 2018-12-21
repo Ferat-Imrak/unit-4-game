@@ -88,5 +88,5 @@ $(document).on("click", ".container", function () {
     }
 
 
-})
+});
 

@@ -8,10 +8,12 @@ body {
    left: 21%;
    top: -145px;
    background-color: aqua;
-   padding: 16px;
+   padding: 18px;
    margin-right: 91%;
    
+ 
 }
+
 h1 {
     background-color: orange;
     padding: 20px;
@@ -55,7 +57,7 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-top: -125px;
+    margin-top: -102px;
 }
 
 
