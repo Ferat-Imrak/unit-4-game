@@ -3,15 +3,24 @@ body {
 
 }
 
-.score1 {
+/* .score1 {
    position: relative;
    left: 21%;
-   top: -145px;
+   top: -167px;
    background-color: aqua;
-   padding: 18px;
+   padding: 16px;
    margin-right: 91%;
    
- 
+} */
+
+.score1 {
+    position: absolute;
+    margin-left: 25%;
+    bottom: -24%;
+    background-color: aqua;
+    padding: 25px;
+    margin-left: 23%;
+    max-height: 15%;
 }
 
 h1 {
@@ -31,7 +40,7 @@ h1 {
 }
 
 #result {
-    padding: 40px;
+    padding: 50px;
     margin-right: 80%;
     background-color: green;
     font-size: 30px;
@@ -57,7 +66,7 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-top: -102px;
+    margin-top: -4px;
 }
 
 
@@ -66,5 +75,4 @@ h1 {
     height: 100px;
     width: 100px;
 }
-
 
